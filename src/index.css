@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+
+.container{
+  width: 100vw;
+  min-height: 100vh;
+  background: #ced8ff;
+  transition: 0.5s;
+
+}
+.container.dark{
+  background: #000;
+}
+
+@media  (min-width:400px){
+  body{
+    background: green;
+  }
+  .container{
+    background-color: red;
+    display: grid;
+  }
+}
